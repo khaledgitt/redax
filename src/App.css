@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +24,80 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: linear-gradient(to bottom, #041c88bd 0%, #000000 100%);
+  margin-top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputs >*{
+  width: 100%;
+margin-top: 10px;
+}
+
+
+
+
+.movies-screen {
+background-color: #041c88ec ;
+}
+
+
+
+
+.filter {
+  background-color: #041c88bd;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 1.2em;
+  border-radius: 12px;
+  background-color: rgb(230, 228, 230);
+  margin-top: 40px;
+
+}
+
+
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav_link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  width: 100%;
+}
+
+
+.link {
+  
+  font-weight: 600;
+}
+
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  height: 70px;
+  padding: 20px;
+  text-decoration-color: white;
+}
+
+
+.home-layout {
+  background-color: rgba(201, 141, 141, 0.815);
+  padding: 1.2em;
+  width: 100%;
+
+}
+
+
+.home-layout .carou > * > * {
+  height: 300px;
 }
